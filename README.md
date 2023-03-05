@@ -1,9 +1,7 @@
-# Projeto-Plataforma-LirioBrancoAtelier
 
+# Projeto Plataforma Lirio Branco Atelier
 
-# Plataforma Lirio Branco Atelier
-
-API RESTful em Node
+API RESTful em Node.js
 
 ## Descrição
 
