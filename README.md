@@ -25,6 +25,8 @@ Aqui estão os endpoints disponíveis na API:
 - `POST /cadastro`: Cria um novo usuário com base nos dados fornecidos no corpo da solicitação (nome, email, telefone e senha).
 - `POST /login` : Realiza o login do usuario com base nos dados fornecidos no corpo da solicitação (email e senha).
 - `GET /usuario/:id` : Retorna as informações e pedidos do usuário com o ID especificado.
+- `POST /encomenda` : Realiza o cadastro de uma nova encomenda.
+- `GET /encomenda` : Lista todas as encomendas do cliente logado e seu status.
 
 Para usar a API, envie solicitações HTTP para esses endpoints usando um cliente HTTP, como o [Postman](https://www.postman.com/) ou o [Insomnia](https://insomnia.rest/).
 
