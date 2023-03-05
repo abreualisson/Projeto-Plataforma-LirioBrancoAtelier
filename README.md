@@ -9,8 +9,8 @@ Projeto simplificado de uma plataforma capaz de cadastrar, logar e gerar pedidos
 
 ## Instalação
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Entre no diretório do projeto: `cd seu-projeto`
+1. Clone este repositório: `git@github.com:abreualisson/Projeto-Plataforma-LirioBrancoAtelier.git`
+2. Entre no diretório do projeto: `cd Projeto-Plataforma-LirioBrancoAtelier`
 3. Instale as dependências: `npm install`
 4. Execute o projeto: `npm start`
 
