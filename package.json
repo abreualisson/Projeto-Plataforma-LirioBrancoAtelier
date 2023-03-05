@@ -1,0 +1,24 @@
+{
+  "name": "projeto-plataforma-liriobrancoatelier",
+  "version": "1.0.0",
+  "description": "API RESTful em Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abreualisson/Projeto-Plataforma-LirioBrancoAtelier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abreualisson/Projeto-Plataforma-LirioBrancoAtelier/issues"
+  },
+  "homepage": "https://github.com/abreualisson/Projeto-Plataforma-LirioBrancoAtelier#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
