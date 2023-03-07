@@ -1,6 +1,8 @@
 const express = require('express')
-const { cadastrarEncomenda, perfilDoUsuario, listarEncomendas } = require('./controladores/acessoDoUsuario')
+const knex = require('./conexao')
+const { perfilDoUsuario } = require('./controladores/acessoDoUsuario')
 const { cadastrarUsuario, login } = require('./controladores/cadastroELogin')
+const { cadastrarEncomenda, listarEncomendas } = require('./controladores/encomendas')
 
 const rotas = express()
 rotas.use(express.json())
