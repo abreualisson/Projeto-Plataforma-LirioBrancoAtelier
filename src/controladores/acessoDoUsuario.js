@@ -5,9 +5,9 @@ const perfilDoUsuario = async (req, res) => {
 
     try {
 
-        const usuarios = await knex('usuarios').select('nome').orderBy('id', 'desc').debug();
+        const usuario = await knex('usuarios').where({ id }).debug();
 
-        return res.json(usuarios)
+        return res.json(usuario)
     } catch (error) {
         return res.status(500).json('erro interno do servidor')
     }
